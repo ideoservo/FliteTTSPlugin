@@ -1,7 +1,7 @@
-# FliteTTSPlugin
+### FliteTTSPlugin
 Unreal Engine Flite Text To Speech Plugin (Windows only)
-Status: not usable yet - work in progress
 
+## Presentation
 Flite is a small fast run-time speech synthesis engine.  It is the
 latest addition to the suite of free software synthesis tools
 including University of Edinburgh's Festival Speech Synthesis System
@@ -20,6 +20,11 @@ Unreal Engine Flite Text To Speech Plugin additions are:
 - Unreal Engine plugin encapsulation
      Work in progress	 
 
+## Status: not usable yet - work in progress
+- It can be built in Win32 and in x64 but only works in Win32 (which is annoying for Unreal Engine)
+- I have "lib not found" issues on some targets including Unreal Editor one
+- It is only compatible for Windows at the moment (but as FLITE is cross plateform I expect it could be ported to other plateforms)
+
 ## Build instructions
 - Microsoft Visual Studio 2015
 - Unreal Engine 4.11 or higher
@@ -32,6 +37,6 @@ Unreal Engine Flite Text To Speech Plugin additions are:
 # Unreal plugin
 1) Create an Unreal Engine C++ project, for example "PluginTest"
 2) Drop the FilteTTSPlugin directory into the Plugin directory (ex: PluginTest\Plugins\FliteTTSPlugin)
-3) Open your project solution and building
-        Note: at the moment not all targets compile (including Editor and making the plugin not usable)
+3) Open your project solution and build it (add the adequate flite lib path to your Unreal Engine project solution)
         
+
