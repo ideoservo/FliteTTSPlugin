@@ -1,0 +1,7 @@
+LIBRARY	"cmu_us_slt"
+EXPORTS
+	cmu_us_slt_cg_db DATA
+	cmu_us_slt_cg DATA
+	register_cmu_us_slt
+	unregister_cmu_us_slt
+	
