@@ -35,3 +35,5 @@ FliteTTSPlugin/ThirdParty/flite/windows/build/
 FliteTTSPlugin/ThirdParty/flite/lib
 
 *.sdf
+*.VC.db
+*.opendb
