@@ -1,0 +1,25 @@
+{
+	"FileVersion" : 3,
+	"Version" : 1,
+	"VersionName" : "1.0",
+	"FriendlyName" : "Flite TTS Plugin",
+	"Description" : "Flite Text To Speech Plugin for Unreal 4",
+	"Category" : "TextToSpeech",
+	"CreatedBy" : "G.Charra",
+	"CreatedByURL" : "http://www.ideoservo.com",
+	"DocsURL" : "",
+	"MarketplaceURL" : "",
+	"SupportURL" : "",
+	"EnabledByDefault" : false,
+	"CanContainContent" : false,
+	"IsBetaVersion" : false,
+	"Installed" : false,
+	"Modules" :
+	[
+		{
+			"Name" : "FliteTTSPlugin",
+			"Type" : "Developer",
+			"LoadingPhase" : "Default"
+		}
+	]
+}
