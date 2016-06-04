@@ -26,3 +26,12 @@
 *.exe
 *.out
 *.app
+
+FliteTTSPlugin/Intermediate/Build
+FliteTTSPlugin/ThirdParty/flite/.vs
+FliteTTSPlugin/Binaries
+FliteTTSPlugin/ThirdParty/flite/ipch
+FliteTTSPlugin/ThirdParty/flite/windows/build/
+FliteTTSPlugin/ThirdParty/flite/lib
+
+*.sdf
